@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "bootstrapKopi",
   "version": "1.0.0",
   "description": "Description",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "Author",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
