@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+/* scss */
+
+.navbar-brand img{
+  width: 30px;
+  margin-right: 20px;
+}
+
+.jumbotron{
+  background-image: url("https://images.pexels.com/photos/3171151/pexels-photo-3171151.jpeg?auto=compress&crop=bottom&cs=tinysrgb&fit=crop&h=350.0&sharp=10&w=1400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  margin: 0;
+  max-width: none;
+  margin-top: 10px;
+}
+
+.grid-title{
+  font-size: 20px;
+  font-weight: 600;
+}
