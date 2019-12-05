@@ -188,3 +188,57 @@ img{
   font-size: 20px;
   font-weight: 600;
 }
+
+.image-text-container__image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 160px;
+}
+
+.imgboks{
+  display: flex;
+  padding: 20px;
+}
+
+.imgcontainer{
+  padding: 100px 300px;
+}
+
+.imgh{
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.imgp{
+  margin-left: 20px;
+}
+
+.container3{
+  margin-top: 100px;
+}
+
+.free{
+  display: flex;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.ikon{
+  margin-right: 20px ;
+}
+
+.knapper{
+  display: flex;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.knap1{
+  background-color: mediumseagreen;
+}
+
+.knap2{
+  background-color: #eeeeee;
+  color: black;
+}
