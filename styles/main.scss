@@ -28,6 +28,156 @@ img{
   align-items: center;
 }
 
+.jumboA{
+  background-image: url("https://www.pexels.com/assets/page-headers/night-62f57556079d65eee8655ce902da75245dab3fa0d02b077d1a7e26968ddb0463.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.jumboL{
+  background-image: url("https://www.pexels.com/assets/page-headers/woman-957b02e81f6664f63d640eb8b23111172fad8e0d5e1f720bf6fa4ed9863f9d9a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aHeading, .lead{
+  text-align: center;
+  color: White;
+}
+
+.aHeading{
+  font-weight: bold;
+}
+
+.lead{
+  font-size: 26px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.topSubHead{
+  margin-top: 2em;
+}
+
+.subHead{
+  margin-bottom: .5em;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.lastHead{
+  margin-top: 60px;
+}
+
+.btn{
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  background: #071b4d;
+  margin-bottom: 10px;
+}
+
+.aIcon{
+  margin-top: 60px;
+}
+
+.footerNav{
+  background: #071b4d;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footerInput{
+  display: block;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 2px;
+  background: rgba(255,255,255,.2);
+  color: #fff;
+  padding: .5rem 1rem;
+  min-width: 0;
+  width: 100%;
+}
+
+.signUpBtn{
+  background: #fff;
+  color: #1a1a1a;
+  border-color: rgba(26,26,26,.15);
+
+}
+
+.form-inline{
+  display: flex;
+}
+
+.footerMain{
+  background: #071b4d;
+  color: white;
+  padding: 2rem;
+}
+
+.footerListHead{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footerListItem{
+  opacity: .6;
+
+  &:hover{
+    opacity: 1;
+  }
+}
+
+
+.active{
+  position: relative;
+  z-index: 1;
+  border-bottom: 2px solid #05a081;
+  color: #05a081;
+  cursor: default;
+  font-weight: 600;
+}
+
+.nav-link{
+  color: #5e5e5e;
+  font-weight: 600;
+}
+
+.footerNavList{
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.footerLink{
+  color: white;
+  font-weight: 600;
+}
+
 .container{
   margin: 0;
   max-width: none;
